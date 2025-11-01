@@ -1,0 +1,139 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Design user interface",
+      "description": "Create wireframes and design mockups for the dashboard",
+      "status": "backlog",
+      "priority": "high",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Set up project structure",
+      "description": "Initialize Next.js project with necessary configurations",
+      "status": "review",
+      "priority": "medium",
+      "createdAt": "2024-01-14T09:00:00Z",
+      "updatedAt": "2025-11-01T15:32:18.042Z"
+    },
+    {
+      "id": "3",
+      "title": "Implement authentication",
+      "description": "Add user login and registration functionality",
+      "status": "done",
+      "priority": "medium",
+      "createdAt": "2024-01-13T08:00:00Z",
+      "updatedAt": "2025-11-01T14:33:51.839Z"
+    },
+    {
+      "id": "4",
+      "title": "Write unit tests",
+      "description": "Create comprehensive test suite for all components",
+      "status": "done",
+      "priority": "medium",
+      "createdAt": "2024-01-10T10:00:00Z",
+      "updatedAt": "2025-11-01T14:58:08.269Z"
+    },
+    {
+      "id": "5",
+      "title": "Optimize database queries",
+      "description": "Improve query performance for large datasets",
+      "status": "done",
+      "priority": "low",
+      "createdAt": "2024-01-12T12:00:00Z",
+      "updatedAt": "2025-11-01T14:58:55.819Z"
+    },
+    {
+      "id": "6",
+      "title": "Deploy to production",
+      "description": "Set up CI/CD pipeline and deploy application",
+      "status": "review",
+      "priority": "medium",
+      "createdAt": "2024-01-05T09:00:00Z",
+      "updatedAt": "2025-11-01T15:03:09.634Z"
+    },
+    {
+      "id": "7",
+      "title": "Integrate payment gateway",
+      "description": "Add Stripe payment processing",
+      "status": "review",
+      "priority": "high",
+      "createdAt": "2024-01-16T10:00:00Z",
+      "updatedAt": "2025-11-01T15:02:54.369Z"
+    },
+    {
+      "id": "8",
+      "title": "Create API documentation",
+      "description": "Document all REST API endpoints",
+      "status": "in-progress",
+      "priority": "medium",
+      "createdAt": "2024-01-17T10:00:00Z",
+      "updatedAt": "2024-01-17T10:00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Mobile responsive design",
+      "description": "Ensure app works on all mobile devices",
+      "status": "done",
+      "priority": "high",
+      "createdAt": "2024-01-18T10:00:00Z",
+      "updatedAt": "2025-11-01T14:59:44.029Z"
+    },
+    {
+      "id": "10",
+      "title": "Performance optimization",
+      "description": "Optimize bundle size and load times",
+      "status": "backlog",
+      "priority": "medium",
+      "createdAt": "2024-01-19T10:00:00Z",
+      "updatedAt": "2024-01-19T10:00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "Security audit",
+      "description": "Conduct security review and fix vulnerabilities",
+      "status": "in-progress",
+      "priority": "high",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z"
+    },
+    {
+      "id": "12",
+      "title": "User feedback system",
+      "description": "Implement feedback collection feature",
+      "status": "backlog",
+      "priority": "low",
+      "createdAt": "2024-01-21T10:00:00Z",
+      "updatedAt": "2024-01-21T10:00:00Z"
+    },
+    {
+      "id": "14",
+      "title": "Analytics dashboard",
+      "description": "Build analytics and reporting dashboard",
+      "status": "in-progress",
+      "priority": "medium",
+      "createdAt": "2024-01-23T10:00:00Z",
+      "updatedAt": "2025-11-01T15:00:05.050Z"
+    },
+    {
+      "id": "15",
+      "title": "Dark mode support",
+      "description": "Implement dark mode theme",
+      "status": "in-progress",
+      "priority": "low",
+      "createdAt": "2024-01-24T10:00:00Z",
+      "updatedAt": "2025-11-01T15:00:14.260Z"
+    },
+    {
+      "id": "a55b",
+      "title": "dasd",
+      "description": "dasd",
+      "status": "in-progress",
+      "priority": "high",
+      "createdAt": "2025-11-01T15:00:27.054Z",
+      "updatedAt": "2025-11-01T15:00:27.054Z"
+    }
+  ]
+}
