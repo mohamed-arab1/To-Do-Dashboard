@@ -1,16 +1,24 @@
 import { Task } from '@/types';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+// Use /api for production (Vercel), or localhost:4000 for development with json-server
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 
+  (typeof window !== 'undefined' && window.location.hostname === 'localhost' 
+    ? 'http://localhost:4000' 
+    : '/api');
 
 export const taskApi = {
   getAll: async (): Promise<Task[]> => {
-    const response = await fetch(`${API_URL}/tasks`);
+    const response = await fetch(`${API_URL}/tasks`, {
+      cache: 'no-store',
+    });
     if (!response.ok) throw new Error('Failed to fetch tasks');
     return response.json();
   },
 
   getById: async (id: number | string): Promise<Task> => {
-    const response = await fetch(`${API_URL}/tasks/${id}`);
+    const response = await fetch(`${API_URL}/tasks/${id}`, {
+      cache: 'no-store',
+    });
     if (!response.ok) throw new Error('Failed to fetch task');
     return response.json();
   },
